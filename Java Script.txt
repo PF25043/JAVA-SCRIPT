@@ -1,0 +1,15 @@
+CAMINHA PARA A PASTA DO GIT
+C:\Users\Positivo\pasta-git\projetos\curso-javascript-projeto-usuarios
+
+----------------------------
+TABOADA
+
+let n = 11;
+
+for (let i = 0; i<= 10; i++) {
+
+	console.log(`${i} x ${n} = ${i*n}`);
+
+}
+
+----------------------------------
