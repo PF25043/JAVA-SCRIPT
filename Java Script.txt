@@ -1,5 +1,3 @@
-CAMINHA PARA A PASTA DO GIT
-C:\Users\Positivo\pasta-git\projetos\curso-javascript-projeto-usuarios
 
 ----------------------------
 TABOADA

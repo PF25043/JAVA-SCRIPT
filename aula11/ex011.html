@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <!--<h1>Você está no Brasil</h1>
+    Você vive em qual país?   <input type = "text" id= "pais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id = "res">
+    </div>
+
+    <script>
+        function verificar(){
+            var pais= document.querySelector('input#pais')
+            var res= document.querySelector('div#res')
+            var respais= string (pais.value)
+            res.innerHTML =`<p>Você mora no país: ${respais}!<p>`
+            if(naci!="Brasil"){
+                res.innerHTML+= `<p>Você é <strong>estrangeiro</strong>!<p>`
+            }else{
+                res.innerHTML+=`<p>Você é <strong>brasileiro</strong>!`
+            }
+        }
+    </script>-->
+
+    <h1>Sua nacionalidade</h1>
+    Você vive em qual país?   <input type = "text" id= "pais">
+    <input type="button" value="Pesquisar" onclick="clicar()">
+    <div id = "res">
+    </div>
+    
+    <script>
+        function clicar(){
+            var paisp= document.getElementById('pais')
+            var res=document.getElementById('res')
+            var vel= String (paisp.value).toLocaleLowerCase();
+            res.innerHTML=`Seu pais é ${vel}!`
+            if(vel!= 'Baril'){
+                res.innerHTML+= 'Você é estrangeiro!'
+            }else{
+                res.innerHTML+='Você é brasileiro!'
+            }
+        }
+</body>
+</html>

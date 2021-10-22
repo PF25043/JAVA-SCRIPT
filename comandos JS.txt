@@ -1,20 +1,20 @@
 ?
 
-_____________HTML________________
+_____comentario___HTML________________
 
 <!--     saudhjkojxrseefgfhgujh  -->
-______________CSS_________________
+
+_____comentario___CSS_________________
 
 /*    sauhsgdsjaudasud     */
 
-_______________JC_________________
+_____comentario___JC_________________
 
 //     ------COMENTAR linha
 
 /*
 */   ------- COMENTAR varias linhas
 __________________________________
-
 
 window.alert  ------- somente um alerta e "ok"
 window.confirm  ------- confirmar "ok" ou "cancela"
@@ -35,6 +35,11 @@ n1.toFixed(2)   ------casas apos o ponto ex: 150.8  > 150.80
 n1.replace('.', ',')  ------alterar . para , Ex: 150.80 > 150,80 
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BR'})  ----- transformar valor em "real brasileiro"
 
+_________________________
+NODE.JS EXEC
+instalar
+habilitar
+--atualizar o arquivo xxx.js utilizando o f8
 
 
 
