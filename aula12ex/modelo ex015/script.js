@@ -16,7 +16,7 @@ function verificar() {
             if (idade >=0 && idade < 10){
                 //criança
                 img.setAttribute('src', 'homemc.png')
-            } else if (idade<21){
+            } else if (idade<25){
                 //jovem
                 img.setAttribute('src', 'homemj.png')
             } else if (idade <50 ) {
@@ -31,7 +31,7 @@ function verificar() {
             genero = 'Mulher'
             if (idade >=0 && idade < 10){
                 //criança
-                img.setAttribute('src', 'mulherc.png')
+                img.setAttribute('src', 'mulherc.png') //Inserir imagem sem html
             } else if (idade<21){
                 //jovem
                 img.setAttribute('src', 'mulherj.png')
